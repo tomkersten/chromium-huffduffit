@@ -1,0 +1,15 @@
+{
+  "name": "Huffduff It!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Bring up HuffDuff It! dialog for the current page.",
+  "action": {
+    "default_title": "Huffduffing It..."
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": { "16": "icon-16.png", "48": "icon-48.png", "128": "icon-128.png" }
+}
